@@ -99,6 +99,15 @@ img {
   padding: 24px 0;
 }
 
+.list-header::before {
+  color: #2e2f42;
+}
+
+.list-header:hover:after {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
 .header-link {
   color: #2e2f42;
   font-family: Roboto;
