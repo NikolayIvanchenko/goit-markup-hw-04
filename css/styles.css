@@ -314,6 +314,38 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.team-contacts-icon {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-position: center;
+  margin: auto;
+}
+
+.team-cocial-link {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+}
+
+.team-cocial-link:hover,
+.team-cocial-link:focus {
+  background-color: #31d0aa;
+}
+
+.cocial-nav-link {
+  display: flex;
+
+  stroke: #4d5ae5;
+  justify-content: space-around;
+  border-radius: 50%;
+  gap: 24px;
+  margin: 0 16px;
 }
 
 .section-team-person {
@@ -354,6 +386,13 @@ img {
   margin-bottom: 72px;
 }
 
+.our-section-portfolio p {
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .our-section-portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -364,8 +403,23 @@ img {
 .list-portfolio {
   background: #fff;
   width: calc((100% - 48px) / 3);
+  position: relative;
 }
 
+.overley {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #4d5ae5;
+
+  width: 100%;
+  height: 300px;
+}
+.overley p {
+  color: #f4f4fd;
+  margin-top: 40px;
+  margin-left: 32px;
+}
 .portfolio-card {
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -379,12 +433,6 @@ img {
   line-height: 1.2;
 }
 
-.our-section-portfolio p {
-  letter-spacing: 0.02em;
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-}
 /* footer */
 .footer {
   background-color: #2e2f42;
