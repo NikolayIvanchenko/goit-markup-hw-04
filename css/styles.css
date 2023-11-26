@@ -333,6 +333,9 @@ img {
   background-color: #4d5ae5;
 }
 
+.link-team {
+}
+
 .team-cocial-link:hover,
 .team-cocial-link:focus {
   background-color: #31d0aa;
@@ -340,12 +343,8 @@ img {
 
 .cocial-nav-link {
   display: flex;
-
-  stroke: #4d5ae5;
-  justify-content: space-around;
-  border-radius: 50%;
+  justify-content: center;
   gap: 24px;
-  margin: 0 16px;
 }
 
 .section-team-person {
