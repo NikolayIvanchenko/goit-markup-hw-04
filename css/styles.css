@@ -375,7 +375,7 @@ img {
 .cocial-nav-link {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .section-team-person {
@@ -543,6 +543,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.footer-hover:hover {
+.footer-hover:hover,
+.footer-hover:focus {
   background-color: #31d0aa;
 }
