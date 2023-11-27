@@ -357,14 +357,14 @@ img {
   gap: 16px;
 }
 
-.link-team:hover {
-  background-color: #31d0aa;
+.team-links:hover,
+.team-links:focus {
+  background-color: #404bbf;
 }
-
 .cocial-nav-link {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
 }
 
 .section-team-person {
