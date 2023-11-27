@@ -369,7 +369,7 @@ img {
 .cocial-nav-link {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .section-team-person {
