@@ -364,7 +364,7 @@ img {
 .cocial-nav-link {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .section-team-person {
@@ -488,6 +488,7 @@ img {
   margin-bottom: 16px;
   font-weight: 500;
   color: #ffffff;
+  letter-spacing: 0.02em;
 }
 
 /* .footer p {
@@ -509,6 +510,10 @@ img {
   letter-spacing: 0.03em;
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-logo:focus {
+  background-color: #31d0aa;
 }
 
 .footer .accent {
