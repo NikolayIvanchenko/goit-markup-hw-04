@@ -106,6 +106,12 @@ img {
   gap: 40px;
   padding: 24px 0;
 }
+
+.list-header :hover,
+.list-header :focus {
+  color: #404bbf;
+}
+
 .current {
   position: relative;
   color: #404bbf;
