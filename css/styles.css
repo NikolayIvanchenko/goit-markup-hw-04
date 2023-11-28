@@ -75,6 +75,7 @@ img {
   display: flex;
   align-items: center;
   margin-right: auto;
+  color: #2e2f42;
 }
 
 .header-logo {
