@@ -382,7 +382,7 @@ img {
 .cocial-nav-link {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
 }
 
 .section-team-person {
