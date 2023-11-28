@@ -122,16 +122,6 @@ img {
   text-decoration: underline;
 }
 
-.header-link {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 24px 0;
-}
-
 .header-link:hover,
 .header-link:focus,
 .header-link:active {
@@ -179,6 +169,16 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
+}
+
+.header-link {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 /* hero */
@@ -363,6 +363,10 @@ img {
 .link-team:hover,
 .link-team:focus {
   background-color: #404bbf;
+}
+
+.team-contacts-icon-main {
+  gap: 24px;
 }
 
 .team-contacts-icon {
